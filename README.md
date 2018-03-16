@@ -26,3 +26,7 @@ How execute it
     `nextflow run nextflow-io/rnatoy -with-docker` 
     
     
+Federated execution
+----------------
+
+
