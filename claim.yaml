@@ -3,6 +3,7 @@ apiVersion: v1
 metadata:
   name: task-pv-claim
 spec:
+  volumeName: task-pv-volume
   storageClassName: manual
   accessModes:
     - ReadWriteMany

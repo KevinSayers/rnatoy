@@ -11,4 +11,4 @@ spec:
   accessModes:
     - ReadWriteMany
   hostPath:
-    path: "/home/kevin/fedvol"
+    path: "./data/gut"

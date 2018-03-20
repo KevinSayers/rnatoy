@@ -103,7 +103,7 @@ process mapping {
  */
 process makeTranscript {
     tag "$pair_id"
-    publishDir params.outdir, mode: 'copy'  
+    publishDir '/data/results, mode: 'copy'  
        
     input:
     file annot from annotation_file
