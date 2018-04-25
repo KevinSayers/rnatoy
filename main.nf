@@ -103,7 +103,6 @@ process mapping {
  */
 process makeTranscript {
     tag "$pair_id"
-    publishDir '/data/results, mode: 'copy'  
        
     input:
     file annot from annotation_file
